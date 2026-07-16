@@ -1,5 +1,9 @@
 
-## Automação Robótica de Processos.
+
+## 🤖 Automação Robótica de Processos
+
+# Projeto de RPA desenvolvido para automatizar o monitoramento de lotes no SAP, reduzindo consultas manuais recorrentes e melhorando a comunicação entre as áreas envolvidas.
+
 
 ## 📌Problema
 
@@ -9,7 +13,7 @@ O monitoramento da chegada dos lotes à fábrica era realizado diretamente no SA
 Essa visibilidade era essencial para que as próximas etapas fossem acionadas no momento certo, como coleta de amostra, inspeção do lote e envio das informações para análise da Qualidade. Quando havia algum desvio ou suspeita de não conformidade, identificar rapidamente a chegada do lote ajudava a antecipar tratativas, apoiar a análise de causa raiz e contribuir para a liberação do produto para venda com mais agilidade.
 
 
-## 🤖 Solução
+## 💡Solução
 
 Foi desenvolvida uma automação RPA para monitorar a chegada dos lotes no SAP de forma automática e padronizada. A solução utiliza uma planilha Excel como base de entrada, onde são informados os números dos lotes que precisam ser acompanhados.
 
@@ -28,20 +32,40 @@ Antes, se um lote chegasse à fábrica em determinado horário, ele só seria id
 
 Com isso, o processo ganhou mais agilidade, visibilidade e padronização, antecipando etapas como coleta, inspeção, análise da Qualidade e tratativa de possíveis desvios, além de contribuir para reduzir atrasos na liberação do produto para venda.
 
+## 🚀 Funcionalidades
+
+<table>
+  <tr>
+    <td>📄</td>
+    <td><b>Leitura automática de planilha Excel</b></td>
+  </tr>
+  <tr>
+    <td>🤖</td>
+    <td><b>Execução automatizada do processo via RPA</b></td>
+  </tr>
+  <tr>
+    <td>🖥️</td>
+    <td><b>Consulta automática de lotes no SAP</b></td>
+  </tr>
+  <tr>
+    <td>✅</td>
+    <td><b>Identificação do status de chegada do lote</b></td>
+  </tr>
+  <tr>
+    <td>📊</td>
+    <td><b>Atualização automática da base de controle</b></td>
+  </tr>
+  <tr>
+    <td>📧</td>
+    <td><b>Envio de notificações automáticas por e-mail</b></td>
+  </tr>
+  <tr>
+    <td>💬</td>
+    <td><b>Envio de alertas automáticos pelo Microsoft Teams</b></td>
+  </tr>
+</table>
 
 
 
 
 
-
-📄	Leitura automática de planilha Excel
-
-🤖	Execução automatizada do processo via RPA
-
-🖥️	Consulta automática de lotes no SAP
-
-✅	Identificação do status de chegada do lote
-
-📊	Atualização automática da base de controle
-
-📧	Envio de notificações automáticas por e-mail
