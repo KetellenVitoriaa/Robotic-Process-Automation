@@ -18,6 +18,20 @@ Com isso, o acompanhamento deixou de depender de consultas manuais recorrentes, 
 
 
 
+🚀 Impacto
+
+
+A automação reduziu o tempo gasto pelo especialista em consultas manuais recorrentes no SAP. Antes, era necessário acessar o sistema várias vezes ao dia para verificar se o lote havia chegado à fábrica e, somente depois, avisar a Produção para iniciar a inspeção.
+
+Com o processo automatizado, a chegada do lote passou a ser identificada automaticamente, e a notificação é enviada ao mesmo tempo para os especialistas e para a Produção. Isso reduziu a dependência de comunicação manual, acelerou o acionamento das próximas etapas e trouxe mais agilidade ao fluxo operacional.
+
+A solução também contribuiu para antecipar atividades como coleta de amostra, inspeção do lote e envio das informações para análise da Qualidade. Em casos de desvios ou suspeitas de não conformidade, essa agilidade apoia uma resposta mais rápida, facilita a análise de causa raiz e contribui para reduzir atrasos na liberação do produto para venda.
+
+Como resultado, o processo ganhou mais eficiência, visibilidade e padronização, gerando impacto direto no tempo dos usuários, na comunicação entre áreas e no fluxo de liberação dos lotes.
+
+
+
+
 📄	Leitura automática de planilha Excel
 
 🤖	Execução automatizada do processo via RPA
