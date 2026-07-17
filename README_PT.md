@@ -200,15 +200,17 @@ A planilha foi estruturada para apoiar o monitoramento dos lotes e reduzir preen
 
 ### 📧 E-mail automático de solicitação ao CD/Logística
 
-Com base nas informações preenchidas no Excel, o robô envia automaticamente uma solicitação ao CD/logística responsável, pedindo o envio da amostra ou item necessário para a fábrica destino.
+Com base nas informações fornecidas no Excel, o robô envia automaticamente uma solicitação ao CD/logística responsável, solicitando o envio da amostra ou item necessário para o destino da fábrica.
 
-![E-mail de solicitação](email_solicitacao_movimentacao_demo.png)
+![E-mail de solicitação](email-solicitacao-movimentacao-demo.png)
+
+---
 
 ### ✅ E-mail automático de chegada do lote
 
 Após a solicitação, o robô monitora o SAP e, quando identifica que o lote chegou à fábrica, atualiza a base de controle e envia notificações automáticas para Especialistas e Produção.
 
-![E-mail de chegada](email_lote_chegou_demo.png)
+![E-mail de chegada](email-lote-chegou-demo.png)
 
 
 
