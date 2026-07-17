@@ -32,6 +32,8 @@ Este projeto automatiza o monitoramento de lotes no SAP, eliminando a necessidad
 
 A solução lê os lotes em uma base Excel, consulta o status diretamente no SAP e, ao identificar a chegada do lote à fábrica, atualiza a planilha de controle e envia alertas automáticos por Outlook e Microsoft Teams.
 
+O processo contempla duas etapas principais: primeiro, a automação envia a solicitação ao CD/logística responsável para movimentação do lote ou amostra; depois, monitora o SAP a cada 1 minuto até identificar a chegada na fábrica e notificar as áreas responsáveis.
+
 ---
 
 ## 🧩 Contexto do Problema
@@ -234,6 +236,13 @@ Este repositório contém uma versão demonstrativa/documentada do projeto, sem 
 ---
 
 <div align="center">
+
+
+## 📚 Aprendizados
+
+Este projeto reforçou a importância de mapear o processo ponta a ponta antes da automação, entendendo a dor do usuário, os pontos de decisão e os impactos operacionais.
+
+Também foram aplicados conceitos de RPA, manipulação de planilhas, automação de interface, integração com sistemas corporativos e notificações automáticas para melhorar a comunicação entre áreas.
 
 ### ✨ De uma rotina manual para um processo automatizado, rastreável e orientado à ação.
 
