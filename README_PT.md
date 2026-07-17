@@ -180,6 +180,37 @@ O robô lê os lotes na planilha, consulta cada item no SAP, identifica a chegad
 
 </div>
 
+## 🖼️ Demonstração
+
+> As imagens abaixo utilizam dados fictícios, sem exposição de informações reais, credenciais, lotes, e-mails ou dados corporativos.
+
+### 📄 Base de dados com preenchimento automático
+
+A planilha foi estruturada para apoiar o monitoramento dos lotes e reduzir preenchimentos manuais. Por meio de fórmulas, informações como e-mail do solicitante e DL/e-mail responsável pela logística são preenchidas automaticamente conforme os dados informados.
+
+#### Visão da base de entrada
+
+![Base de Dados 1](Base_de_Dados_1.jpg)
+
+#### Controle de status e notificações
+
+![Base de Dados 2](Base_de_Dados_2.jpg)
+
+
+
+### 📧 E-mail automático de solicitação ao CD/Logística
+
+Com base nas informações preenchidas no Excel, o robô envia automaticamente uma solicitação ao CD/logística responsável, pedindo o envio da amostra ou item necessário para a fábrica destino.
+
+![E-mail de solicitação](email_solicitacao_movimentacao_demo.png)
+
+### ✅ E-mail automático de chegada do lote
+
+Após a solicitação, o robô monitora o SAP e, quando identifica que o lote chegou à fábrica, atualiza a base de controle e envia notificações automáticas para Especialistas e Produção.
+
+![E-mail de chegada](email_lote_chegou_demo.png)
+
+
 
 ---
 
