@@ -184,6 +184,16 @@ O robô lê os lotes na planilha, consulta cada item no SAP, identifica a chegad
 
 > As imagens abaixo utilizam dados fictícios, sem exposição de informações reais, credenciais, lotes, e-mails ou dados corporativos.
 
+
+### 🔄 Fluxo do processo automatizado
+
+O especialista preenche a base Excel com as informações do lote. A partir desses dados, o robô envia automaticamente uma solicitação para a logística/CD responsável, pedindo o envio da amostra ou lote para a fábrica destino.
+
+Depois disso, a automação monitora o SAP e, quando identifica a chegada do lote à fábrica, atualiza a planilha e envia alertas por e-mail e Microsoft Teams para Especialistas e Produção.
+
+![Fluxograma do Processo RPA](fluxograma_processo_rpa.png)
+
+
 ### 📄 Base de dados com preenchimento automático
 
 A planilha foi estruturada para apoiar o monitoramento dos lotes e reduzir preenchimentos manuais. Por meio de fórmulas, informações como e-mail do solicitante e DL/e-mail responsável pela logística são preenchidas automaticamente conforme os dados informados.
