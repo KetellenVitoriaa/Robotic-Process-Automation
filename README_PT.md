@@ -187,11 +187,12 @@ O robô lê os lotes na planilha, consulta cada item no SAP, identifica a chegad
 
 ### 🔄 Fluxo do processo automatizado
 
-O especialista preenche a base Excel com as informações do lote. A partir desses dados, o robô envia automaticamente uma solicitação para a logística/CD responsável, pedindo o envio da amostra ou lote para a fábrica destino.
+O especialista preenche a base Excel com as informações do lote, como número interno SAP, material, quantidade e CD onde o lote está localizado. A partir desses dados, o robô envia automaticamente uma solicitação para a logística/CD responsável, pedindo o envio da amostra ou lote para a fábrica destino.
 
-Depois disso, a automação monitora o SAP e, quando identifica a chegada do lote à fábrica, atualiza a planilha e envia alertas por e-mail e Microsoft Teams para Especialistas e Produção.
+Após a solicitação, a automação monitora o SAP a cada 1 minuto e, quando identifica a chegada do lote à fábrica, atualiza a planilha e envia alertas por e-mail e Microsoft Teams para Especialistas e Produção.
 
-![Fluxograma do Processo RPA](fluxograma_processo_rpa.png)
+![Fluxograma do Processo RPA](fluxograma-processo-rpa-v2.png)
+
 
 
 ### 📄 Base de dados com preenchimento automático
